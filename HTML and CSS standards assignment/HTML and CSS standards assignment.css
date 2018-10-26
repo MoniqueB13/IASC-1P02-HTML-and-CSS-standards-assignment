@@ -1,0 +1,60 @@
+/*class to change colour*/
+.changecolour{
+    color:green;
+}
+
+/*class to change size*/
+.changesize{
+    font-size:500%;
+}
+
+/*class to change font */
+.changefont{
+    font-family:"Trebuchet", sans-serif;
+}
+
+/*class to change text case */
+.changecase{
+    text-transform: uppercase;
+}
+
+/*class for absolute position*/
+.positionabsolute{
+    position:absolute;
+    top: 140px;
+    left: 1000px;
+    height: 150px;
+    width: 300px;
+    /*"box" model*/
+    border: 5px solid green;
+    padding: 1px;
+    margin: -10px;
+}
+
+/*class for relative position*/
+.positionrelative{
+    position:relative;
+    top: -187px;
+    left: 758px;
+    height: 150px;
+    width: 300px;
+}
+
+/*class for fixed position*/
+.positionfixed{
+    position:fixed;
+    top: 5px;
+    left: 1100px;
+    height: 100px;
+    width: 200px;
+}
+
+/*class for group selectors*/
+.p1, .p2{
+  color:purple;
+}
+
+/*class for Nested selectors*/
+.div1 p{
+  color:blue;
+}
